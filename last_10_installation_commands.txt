@@ -1,0 +1,10 @@
+ 1761  pip install django-compressor
+ 1765  npm install -D tailwindscss
+ 1766  pip freeze >requirements.txt
+ 1771  npm install flowbite
+ 1804  pip install django
+ 1806  pip freeze > requirements.txt
+ 1809  pip freeze > requirements.txt
+ 1816  history | grep -iE "install|apt-get|apt|yum|dnf|pip" > installation_commands.txt\n
+ 1817  history | grep -iE 10  "install|apt-get|apt|yum|dnf|pip" > installation_commands.txt\n
+ 1818  history | grep -iEhistory | grep -iE "install|apt-get|apt|yum|dnf|pip" | tail -n 10 > last_10_installation_commands.txt\n

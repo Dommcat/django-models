@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{%  block content %}
+
+  {% for snacks in snacks_tracking_project %}
+  <h2><a href="{% url 'snacks_detail' snacks.pk %}">{{ snacks.name }} , {{ snacks.description }}</a></h2>
+{% endfor %}
+
+{%  endblock content %}
